@@ -103,6 +103,10 @@ endif
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
 
+# Gamespace
+ PRODUCT_PACKAGES += \
+     GameSpace
+
 # Gboard side padding
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.kb_pad_port_l=4 \
